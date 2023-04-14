@@ -37,15 +37,14 @@ public class Circunferencia {
     public void crearCircunferencia() {
         Scanner leer = new Scanner(System.in);
         System.out.println("ingrese el radio");
-        radio = leer.nextDouble();
+        radio = leer.nextDouble();  
     }
     
     public void area() {
-        System.out.println("area  = " + Math.PI * Math.pow(radio, 2));
-        
+        System.out.println("area  = " + Math.PI * Math.pow(radio, 2));     
     }
     
     public void perimetro() {
-        System.out.println("perimetro = " + (2*Math.PI*radio));
+        System.out.println("perimetro = " + (2*Math.PI*radio));      
     }
 }
