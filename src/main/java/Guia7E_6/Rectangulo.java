@@ -6,7 +6,7 @@ rectángulo.
 package Guia7E_6;
 
 public class Rectangulo {
-    
+
     public int lado1;
     public int lado2;
 
@@ -17,10 +17,8 @@ public class Rectangulo {
         this.lado1 = lado1;
         this.lado2 = lado2;
     }
-    
+
     public int calcularArea() {
-       
-       
         int area = lado1 * lado2;
         return area;
     }

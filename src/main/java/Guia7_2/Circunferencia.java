@@ -45,6 +45,6 @@ public class Circunferencia {
     }
     
     public void perimetro() {
-        System.out.println("perimetro = " + (2*Math.PI*radio));      
+        System.out.println("perimetro = " + (2 * Math.PI * radio));      
     }
 }
