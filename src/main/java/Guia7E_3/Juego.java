@@ -51,22 +51,18 @@ public class Juego {
             if (num == numero) {
                 System.out.println("gano");
                   victorias2 += 1;
-                break;
-              
+                break;          
             } else if (num < numero) {
                 System.out.println("el numero es menor");
                 intentos--;
                 numero = leer.nextInt();
                 System.out.println("le quedan " + intentos);
                 
-
             } else {
                 System.out.println(" el numero es mayor");
                 intentos--;
                 numero = leer.nextInt();
-                System.out.println("le quedan " + intentos);
-               
-
+                System.out.println("le quedan " + intentos);             
             }
         }
         if (intentos == 0) {
